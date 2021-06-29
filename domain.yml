@@ -1,0 +1,66 @@
+version: "2.0"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - what_greentape
+  - how_register
+  - what_price
+  - client_list
+  - speak_human
+
+responses:
+  utter_greet:
+  - text: "Dear Sir/Madam if your questions are listed below click on them. If not type your query in the text box."
+    buttons:
+      - title: "What is Greentape?"
+        payload: "/what_greentape"
+      - title: "How can I register?"
+        payload: "/how_register"
+      - title: "Can I speak to a human"
+        payload: "/speak_human"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_what_greentape:
+  - text: "GreenTape makes procurement simpler and business smoother. Whether you’re a small entrepreneur or a global conglomerate, Green Tape will make your life easier and your business more profitable.
+           For suppliers, GreenTape offers easy onboarding, access to larger clients and opportunities to grow. For large companies, Green Tape digitizes all procurement to reduce costs, drive growth and allow greater control across all business units."
+
+  utter_registration_instructions:
+  - text: "You can register for Greentape by clicking on the signup button and following the instructions or ask greentape help for more assistance"
+
+  utter_clients:
+  - text: "The clients on greentape are Sunshine and Access Holdings"
+
+  utter_price:
+  - text: "Price for Greentape are found here ___"
+
+  utter_human:
+  - text: "Redirection to human assistance will be added here"
+
+  utter_query_human:
+  - text: "Do you want to speak to a human?"
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
