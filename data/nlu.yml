@@ -1,5 +1,4 @@
 version: "2.0"
-
 nlu:
 - intent: greet
   examples: |
@@ -16,7 +15,6 @@ nlu:
     - goodmorning
     - goodevening
     - good afternoon
-
 - intent: goodbye
   examples: |
     - good afternoon
@@ -30,7 +28,6 @@ nlu:
     - see you around
     - bye bye
     - see you later
-
 - intent: affirm
   examples: |
     - yes
@@ -39,7 +36,6 @@ nlu:
     - of course
     - that sounds good
     - correct
-
 - intent: deny
   examples: |
     - no
@@ -49,7 +45,6 @@ nlu:
     - don't like that
     - no way
     - not really
-
 - intent: mood_great
   examples: |
     - perfect
@@ -66,7 +61,6 @@ nlu:
     - so so perfect
     - so good
     - so perfect
-
 - intent: mood_unhappy
   examples: |
     - my day was horrible
@@ -83,21 +77,18 @@ nlu:
     - extremly sad
     - so saad
     - so sad
-
 - intent: bot_challenge
   examples: |
     - are you a bot?
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
-
 - intent: what_greentape
   examples: |
     - What is this website
     - Where can I find information about greentape
     - Whats is greentape
     - What services provided
-
 - intent: how_register
   examples: |
     - How register
@@ -105,7 +96,6 @@ nlu:
     - How to register
     - How can I become a suplier on greentape
     - registration process
-
 - intent: client_list
   examples: |
     - What companies are available
@@ -113,7 +103,6 @@ nlu:
     - What clients can I supply
     - supply to
     - supplier
-
 - intent: what_price
   examples: |
     - pricing
@@ -122,7 +111,6 @@ nlu:
     - monthly cost
     - cost
     - what are the costs
-
 - intent: speak_human
   examples: |
     - can I speak to a human?
